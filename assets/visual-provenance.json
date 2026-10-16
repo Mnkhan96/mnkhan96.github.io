@@ -1,0 +1,59 @@
+{
+  "renderer": {
+    "name": "SmilesDrawer",
+    "version": "2.4.1",
+    "repository": "https://github.com/reymond-group/smilesDrawer",
+    "commit": "8dd92b9525c0f46e539306ef99dff46eec98659e",
+    "paper": "https://doi.org/10.1021/acs.jcim.7b00425",
+    "note": "Used offline to export the static SVGs. No drawing library or build dependency is added to the website."
+  },
+  "structures": [
+    {
+      "slug": "naphthyl-chalcone-verified",
+      "label": "Naphthyl chalcones",
+      "smiles": "CN(C)c1ccc(/C=C/C(=O)c2cccc3ccccc23)cc1",
+      "source": "Representative dimethylamino-substituted 1-naphthyl chalcone, matched to the supplied naphthyl-chalcone graphical abstract."
+    },
+    {
+      "slug": "aminoimidazolone-scaffold",
+      "label": "2-Aminoimidazolones",
+      "smiles": "O=C1NC(N([*])[*])=NC1=C[*]",
+      "source": "General scaffold transcribed from the supplied aminoimidazolone graphical abstract. The three wildcard atoms are the two variable amino substituents and Ar; no specific derivative is asserted."
+    },
+    {
+      "slug": "bithiophene-indanedione",
+      "label": "Bithiophene–indanediones",
+      "smiles": "O=C1C2=C(C=CC=C2)C(/C1=C\\C(S3)=CC=C3C4=CC=C(C5=CC(OC)=C(OC)C(OC)=C5)S4)=O",
+      "source": "Exact BT-02 SMILES supplied by the researcher in the conversation."
+    }
+  ],
+  "abstracts": [
+    {
+      "page": "publications/aminoimidazolone-chromophores.html",
+      "asset": "assets/ga-aminoimidazolone.webp",
+      "source": "Author-provided graphical abstract",
+      "processing": "Proportional resizing and high-quality WebP compression. Scientific content is shown as a whole image; no curves, labels, structures or surfaces were redrawn or reconstructed."
+    },
+    {
+      "page": "publications/pyrazoline-thiazole-hybrids.html",
+      "asset": "assets/ga-pyrazoline-thiazole.webp",
+      "source": "Author-provided graphical abstract",
+      "processing": "Proportional resizing and high-quality WebP compression. Scientific content is shown as a whole image; no curves, labels, structures or surfaces were redrawn or reconstructed."
+    },
+    {
+      "page": "publications/quinoxaline-carboxamides.html",
+      "asset": "assets/ga-quinoxaline.webp",
+      "source": "Author-provided graphical abstract",
+      "processing": "Proportional resizing and high-quality WebP compression. Scientific content is shown as a whole image; no curves, labels, structures or surfaces were redrawn or reconstructed."
+    },
+    {
+      "page": "publications/naphthyl-chalcones.html",
+      "asset": "assets/ga-naphthyl-chalcones.webp",
+      "source": "Author-provided graphical abstract",
+      "processing": "Proportional resizing and high-quality WebP compression. Scientific content is shown as a whole image; no curves, labels, structures or surfaces were redrawn or reconstructed."
+    }
+  ],
+  "unmapped": "image(20261016-115327).png is withheld until its publication is confirmed.",
+  "portrait": "Author-provided IMG_6397.jpg; EXIF orientation corrected, resized and WebP compressed. No retouching or generated image content.",
+  "logo": "Author-provided Picture3.png, preserved as a personal badge on the About page. The existing MN. navigation branding is unchanged."
+}
