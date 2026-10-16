@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="925" viewBox="0 0 1000 925" role="img" aria-labelledby="t d">
+<title id="t">From molecular design to function</title><desc id="d">Conceptual research workflow illustrating donor–acceptor molecular design, organic synthesis, optical and redox characterization, computational electronic structure, and potential optoelectronic applications. Curves and orbital motifs are illustrative, not measured or calculated data.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".58" stop-color="#fafdfc"/><stop offset="1" stop-color="#eaf5f3"/></linearGradient>
+<linearGradient id="liquid" x2="0" y2="1"><stop stop-color="#a1dbce"/><stop offset="1" stop-color="#16847c"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#ddf2ed" stop-opacity=".8"/><stop offset="1" stop-color="#e5f5f1" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#e1ecef" stroke-width=".7"/></pattern>
+<marker id="arrow" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto"><path d="M1 1L6 3.5 1 6" fill="none" stroke="#23877f" stroke-width="1.1" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="1000" height="925" rx="19" fill="url(#bg)"/><rect x="23" y="23" width="954" height="879" rx="10" fill="none" stroke="#d6e5e7" stroke-width="1.5"/><rect x="50" y="50" width="900" height="825" fill="url(#grid)" opacity=".17"/>
+<path d="M80 86H114" stroke="#16827d" stroke-width="3"/><text x="132" y="92" font-family="Arial,sans-serif" font-weight="700" font-size="17" letter-spacing="3.1" fill="#127471">RESEARCH AT A GLANCE</text>
+<text x="80" y="148" font-family="Georgia,serif" font-size="38" fill="#13354a">From molecular design to function</text>
+<text x="81" y="182" font-family="Arial,sans-serif" font-size="17" fill="#617b88">Integrated experimental and computational organic chemistry</text>
+<circle cx="265" cy="353" r="185" fill="url(#halo)"/><circle cx="750" cy="655" r="184" fill="url(#halo)"/>
+<path d="M408 337C480 333 521 338 580 338S863 383 860 504C861 542 829 562 779 570S480 562 415 574C389 583 397 621 427 645S493 675 570 683" fill="none" stroke="#d9ede8" stroke-width="18" stroke-linecap="round" opacity=".6"/>
+<g fill="none" stroke="#268d84" stroke-width="3" stroke-linecap="round"><path d="M408 337C478 334 519 338 581 338" marker-end="url(#arrow)"/><path d="M861 499C859 533 839 550 779 568" marker-end="url(#arrow)"/><path d="M415 574C392 589 396 626 428 644" marker-end="url(#arrow)"/><path d="M479 671C508 679 540 682 570 683" marker-end="url(#arrow)"/></g>
+<g transform="translate(91 216)">
+<text x="4" y="0" font-family="Arial" font-size="13" font-weight="700" letter-spacing="1.5" fill="#2c8581">01 / DESIGN</text>
+<rect x="15" y="50" width="100" height="112" rx="22" fill="#e8f5f1" stroke="#a4d4c9" stroke-width="2"/>
+<rect x="128" y="50" width="100" height="112" rx="22" fill="#edf4f8" stroke="#b7d8e5" stroke-width="2"/>
+<rect x="241" y="50" width="100" height="112" rx="22" fill="#fef1e5" stroke="#e8c9a4" stroke-width="2"/>
+<path d="M115 106H126M228 106H239" stroke="#466d75" stroke-width="3"/>
+<g font-family="Georgia,serif" font-style="italic" font-size="56" text-anchor="middle"><text x="65" y="120" fill="#136f6a">D</text><text x="178" y="120" fill="#22566e">π</text><text x="290" y="120" fill="#a36e42">A</text></g>
+<g stroke="#67a6a7" stroke-width="2"><path d="M55 44V32M65 44V26M75 44V32M288 165V179M278 165V175M298 165V182"/></g>
+<text x="14" y="205" font-family="Georgia,serif" font-size="27" fill="#183b4e">Rational molecular design</text>
+<text x="14" y="233" font-family="Arial" font-size="15" fill="#657f89">Donor–bridge–acceptor engineering</text>
+</g>
+<g transform="translate(572 216)">
+<text font-family="Arial" font-size="13" font-weight="700" letter-spacing="1.5" fill="#2c8581">02 / MAKE</text>
+<g transform="translate(80 -10)" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84 4H166M107 4V70L38 191Q29 209 45 222Q51 229 69 229H181Q199 229 204 213Q209 202 198 187L143 70V4" fill="#fff" fill-opacity=".65" stroke="#235a70" stroke-width="7"/>
+<path d="M68 168C87 152 116 179 141 163C161 150 178 162 182 171L199 203Q202 219 180 219H70Q43 219 53 199Z" fill="url(#liquid)"/>
+<path d="M69 167C90 152 115 181 142 164C161 152 174 157 182 169" fill="none" stroke="#b0f1e5" stroke-width="3"/>
+<circle cx="91" cy="191" r="7" fill="#d1fcf0"/><circle cx="154" cy="197" r="5" fill="#d1fcf0"/>
+<path d="M82 -13H168" stroke="#235a70" stroke-width="8"/>
+<g stroke="#e4a66c" fill="none" stroke-width="3"><path d="M213 133L229 110M209 109L232 109M230 142L241 155"/></g>
+</g>
+<text x="-3" y="249" font-family="Georgia,serif" font-size="27" fill="#183b4e">Organic synthesis</text>
+<text x="-3" y="276" font-family="Arial" font-size="15" fill="#657f89">Make, isolate &amp; characterize</text>
+</g>
+<g transform="translate(90 527)">
+<text x="4" y="0" font-family="Arial" font-size="13" font-weight="700" letter-spacing="1.5" fill="#2c8581">03 / MEASURE</text>
+<g transform="translate(6 30)" fill="none" stroke-linecap="round">
+<path d="M4 193H328M4 193V20" stroke="#a7c7ce" stroke-width="3"/>
+<path d="M10 190C44 190 55 190 76 169C95 150 109 62 136 49C161 39 177 119 196 151C215 182 242 189 317 190" stroke="#188a83" stroke-width="5"/>
+<path d="M11 191C98 190 117 190 150 177C183 164 193 95 226 91C258 86 266 166 290 182C297 188 307 190 317 190" stroke="#d69f60" stroke-width="5"/>
+<path d="M25 35C47 5 78 5 97 36" stroke="#b4d7df" stroke-width="2.5"/>
+<text x="250" y="35" font-family="Arial" font-size="13" fill="#4b7c86">optical</text>
+</g>
+<text x="4" y="265" font-family="Georgia,serif" font-size="27" fill="#183b4e">Light &amp; redox response</text>
+<text x="4" y="293" font-family="Arial" font-size="15" fill="#657f89">Absorption, emission &amp; CV</text>
+</g>
+<g transform="translate(570 530)">
+<text font-family="Arial" font-size="13" font-weight="700" letter-spacing="1.5" fill="#2c8581">04 / MODEL</text>
+<g transform="translate(38 53)">
+<path d="M18 99C34 98 45 89 62 89S96 107 116 105S152 86 176 91S216 110 245 97" stroke="#7697a7" stroke-width="4" stroke-dasharray="4 9" fill="none"/>
+<g opacity=".96"><ellipse cx="58" cy="86" rx="36" ry="23" transform="rotate(-28 58 86)" fill="#56aaa5"/><ellipse cx="102" cy="109" rx="36" ry="23" transform="rotate(27 102 109)" fill="#e7ae76"/><ellipse cx="145" cy="83" rx="36" ry="23" transform="rotate(-28 145 83)" fill="#56aaa5"/><ellipse cx="191" cy="110" rx="36" ry="23" transform="rotate(27 191 110)" fill="#e7ae76"/><ellipse cx="233" cy="87" rx="30" ry="23" transform="rotate(-28 233 87)" fill="#56aaa5"/></g>
+<g fill="#fff" stroke="#375d6e" stroke-width="2"><circle cx="56" cy="98" r="7"/><circle cx="105" cy="96" r="7"/><circle cx="146" cy="96" r="7"/><circle cx="191" cy="96" r="7"/><circle cx="229" cy="96" r="7"/></g>
+<path d="M280 147V23" stroke="#a7c7ce" stroke-width="2"/>
+<path d="M291 132H344M291 53H344" stroke="#206f79" stroke-width="5" stroke-linecap="round"/>
+<path d="M318 122V63" stroke="#d69f60" stroke-width="3" marker-end="url(#arrow)"/>
+</g>
+<text y="263" font-family="Georgia,serif" font-size="27" fill="#183b4e">Electronic structure</text>
+<text y="291" font-family="Arial" font-size="15" fill="#657f89">DFT / TD-DFT &amp; charge transfer</text>
+</g>
+<g transform="translate(80 853)"><path d="M0 -16H840" stroke="#cedfe3" stroke-width="2"/>
+<g fill="none" stroke-width="2.8"><path d="M7 0L19 -23L31 0M19 -23V5M3 5H35" stroke="#d9a45c"/><g transform="translate(47 -17)" stroke="#287b80"><path d="M0 0H31V7H0ZM4 7H35V14H4ZM0 14H31V21H0Z"/></g></g>
+<text x="110" y="1" font-family="Arial" font-size="15" font-weight="700" letter-spacing="1.1" fill="#174b5d">TOWARD ORGANIC SEMICONDUCTORS &amp; OPTOELECTRONIC APPLICATIONS</text>
+</g>
+</svg>
