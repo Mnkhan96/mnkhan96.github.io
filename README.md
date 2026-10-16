@@ -11,6 +11,7 @@ Static multi-page chemistry research profile hosted with GitHub Pages. No build 
 - Teaching, collaborations and service: `experience.html`
 - Chemical academic lineage: `genealogy.html`
 - Contact: `contact.html`
+- Chemistry databases, software and useful resources: `resources.html`
 
 ## Editing
 All pages are plain HTML. Shared appearance and interactions are in `styles.css` and `script.js`. Keep the shared header and footer synchronized when adding pages, and add the new URL to `sitemap.xml`. Internal relative paths on research-story pages use `../`.
@@ -26,3 +27,6 @@ Run `python -m http.server 8000` from this directory, then open `http://localhos
 
 ## Publishing
 The GitHub Pages source is the main branch. Merge a reviewed pull request to publish changes. The site uses static HTML and retains `.nojekyll`.
+
+## Research-at-a-glance homepage art
+The homepage now uses `assets/research-at-a-glance-2026.svg` (an optimized WebP illustration embedded within an SVG container), and the Resources page links to publishers and research projects instead of third-party software repackaging sites. Software license and regional access terms must be respected.
