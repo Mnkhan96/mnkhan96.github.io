@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 900 540" role="img" aria-labelledby="t d">
+<title id="t">A donor-substituted naphthyl chalcone</title><desc id="d">Skeletal structure of a representative dimethylamino-substituted naphthyl chalcone, with an enone bridge between a donor-bearing phenyl group and a naphthyl group.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#edf7f6"/><stop offset="1" stop-color="#f5f6fb"/></linearGradient></defs>
+<rect width="900" height="540" rx="12" fill="url(#bg)"/>
+<g font-family="Arial,sans-serif"><text x="46" y="51" fill="#167a77" font-size="12" letter-spacing="3">MOLECULAR DESIGN / NAPHTHYL CHALCONES</text>
+<circle cx="235" cy="210" r="101" fill="#d9eeea"/><circle cx="578" cy="186" r="132" fill="#e4e9f3"/>
+<g fill="none" stroke="#203b4b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M180 205 210 153 270 153 300 205 270 257 210 257Z M218 163H263 M288 205 264 246 M215 245 192 205"/>
+<path stroke="#167a77" d="M180 205H145 M124 188 106 159 M124 221 106 250"/>
+<path d="M300 205 345 231 390 205 435 231 480 205 M348 220 385 199 M431 235V275 M440 233V275"/>
+<path d="M480 205 510 153 570 153 600 205 570 257 510 257Z M570 153 600 101 660 101 690 153 660 205 600 205"/>
+<path d="M492 204 515 164 M518 247H563 M579 153 609 205 M610 111H654 M679 154 656 195"/>
+</g>
+<text x="120" y="213" fill="#167a77" font-size="25">N</text><text x="75" y="151" fill="#167a77" font-size="21">H₃C</text><text x="75" y="275" fill="#167a77" font-size="21">H₃C</text><text x="424" y="305" fill="#ad6953" font-size="25">O</text>
+<path d="M143 352H687" fill="none" stroke="#bbcfd2" stroke-width="1.2"/>
+<text x="143" y="383" fill="#167a77" font-size="13" font-weight="bold">DONOR SUBSTITUTION</text><text x="369" y="383" fill="#203b4b" font-size="13" font-weight="bold">ENONE BRIDGE</text><text x="584" y="383" fill="#576c95" font-size="13" font-weight="bold">NAPHTHYL UNIT</text>
+<text x="46" y="461" fill="#203b4b" font-size="25">Small structural changes.</text><text x="46" y="495" fill="#167a77" font-size="25">Different molecular responses.</text>
+<text x="46" y="523" fill="#5d727d" font-size="11">Representative molecular scaffold · Vector illustration</text></g></svg>

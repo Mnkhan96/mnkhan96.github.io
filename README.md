@@ -1,23 +1,28 @@
-# Muhammad Naeem Khan — Academic website
+# Muhammad Naeem Khan — academic website
 
-Source code for the personal research profile at https://mnkhan96.github.io/.
+Static multi-page chemistry research profile hosted with GitHub Pages. No build step is required.
 
-## Site features
-
-- About and academic background
-- Research interests and recent projects
-- Selected publications with publisher DOI links
-- Conferences, teaching and academic service
-- Responsive navigation and a publication-year filter
+## Pages
+- Home: `index.html`
+- Profile and education: `about.html`
+- Research overview: `research.html`
+- Publication index: `publications.html`
+- Seven individual research stories: `publications/*.html`
+- Teaching, collaborations and service: `experience.html`
+- Chemical academic lineage: `genealogy.html`
+- Contact: `contact.html`
 
 ## Editing
+All pages are plain HTML. Shared appearance and interactions are in `styles.css` and `script.js`. Keep the shared header and footer synchronized when adding pages, and add the new URL to `sitemap.xml`. Internal relative paths on research-story pages use `../`.
 
-The website uses plain HTML, CSS and JavaScript. Edit `index.html` for content, `styles.css` for styling, and `script.js` for interactions. The SVG illustrations are in `assets/`. No build dependencies are required.
+Chemistry illustrations are original SVG files in `assets/`. The naphthyl-chalcone illustration is a representative structure. Other diagrams are explicitly conceptual; none should be interpreted as experimental spectra, charge-density maps or device performance.
 
-To publish, visit repository **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, and save.
+Publication narratives draw on the supplied CV and published articles. Contribution descriptions are specific where documented. The 2022 review includes a link to its publisher correction. The chemical genealogy preserves the supplied sequence, updates Gilbert Stork's lifespan from Columbia's memorial, and identifies the current PhD as ongoing.
 
-## To complete before treating this as the definitive academic profile
+Portrait and conference photographs have not been added: LinkedIn blocked image retrieval. Use original photos supplied by the site owner rather than a scraped thumbnail. Add optimized images to `assets/`, with descriptive alt text and explicit dimensions.
 
-Verify publication metadata (full authors, journal citations and dates), and add a professional photo, CV, email, ORCID, Google Scholar and LinkedIn profile as appropriate. Keep affiliation and PhD status updated.
+## Local preview
+Run `python -m http.server 8000` from this directory, then open `http://localhost:8000`.
 
-A custom domain such as `mnaeemkhan.me` may be connected later; it is not included or registered here.
+## Publishing
+The GitHub Pages source is the main branch. Merge a reviewed pull request to publish changes. The site uses static HTML and retains `.nojekyll`.
