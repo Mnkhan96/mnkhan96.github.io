@@ -30,3 +30,6 @@ The GitHub Pages source is the main branch. Merge a reviewed pull request to pub
 
 ## Research-at-a-glance homepage art
 The homepage now uses `assets/research-at-a-glance-2026.svg` (an optimized WebP illustration embedded within an SVG container), and the Resources page links to publishers and research projects instead of third-party software repackaging sites. Software license and regional access terms must be respected.
+
+## Research News & Updates
+The homepage has a small, manually curated `#research-news` section linking to two verified public posts from the researcher's LinkedIn profile (pyrazoline–thiazole publication announcement, 2026; naphthyl-chalcone publication announcement, 2025). To update it, edit the two `<article class="news-card">` entries in `index.html`, keeping the year, summary and post URL aligned with a verified public LinkedIn post. This is **not** an automatic LinkedIn feed; LinkedIn posts do not sync automatically. Shared styles are in `styles.css` under `Curated research news cards`.
