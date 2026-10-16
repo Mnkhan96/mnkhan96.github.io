@@ -19,7 +19,7 @@ Chemistry illustrations are original SVG files in `assets/`. The naphthyl-chalco
 
 Publication narratives draw on the supplied CV and published articles. Contribution descriptions are specific where documented. The 2022 review includes a link to its publisher correction. The chemical genealogy preserves the supplied sequence, updates Gilbert Stork's lifespan from Columbia's memorial, and identifies the current PhD as ongoing.
 
-Portrait and conference photographs have not been added: LinkedIn blocked image retrieval. Use original photos supplied by the site owner rather than a scraped thumbnail. Add optimized images to `assets/`, with descriptive alt text and explicit dimensions.
+The site uses the researcher’s supplied laboratory portrait and personal logo, four matched graphical abstracts, and original static scientific SVGs. Image and structure provenance is in `assets/visual-provenance.json`. The existing MN. navigation mark is retained. Visual audit and preview images are in `review/visual-audit.md`.
 
 ## Local preview
 Run `python -m http.server 8000` from this directory, then open `http://localhost:8000`.

@@ -6,3 +6,56 @@
 @media(max-width:760px){.wrap{width:calc(100% - 38px)}.header-inner{min-height:72px}.nav{top:72px}.brand-name{font-size:10px}.hero{padding:42px 0}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:57px}.hero .chemistry-figure{margin-top:10px}.section{padding:50px 0}.page-heading{padding:35px 0}.split,.research-block,.story-layout,.contact-grid{grid-template-columns:1fr;gap:30px}.story-aside{position:static;grid-row:1}.story-aside ul{display:none}.story-aside .info-panel{padding:20px}.story-aside .small-note{margin:15px 0 0}.story-body h2{font-size:29px}.story-heading h1{font-size:35px}.research-block:nth-child(even) figure{order:0}.research-block{padding:30px 0}.section-top{display:block}.section-top>p{margin-top:18px;max-width:none}.paper{grid-template-columns:52px minmax(0,1fr);gap:15px}.paper h2{font-size:20px}.lineage{padding-left:10px}.lineage h2{font-size:20px}.lineage .life{display:block;margin:3px 0}.lineage li{padding-left:25px}.lineage .current{margin-left:-14px;padding:17px}.metrics-inner{display:grid;grid-template-columns:1fr 1fr;padding:20px 0;gap:20px}.metric strong{font-size:29px}.callout .wrap{display:block}.callout .button{margin-top:22px}.contact-grid{gap:20px}}
 @media(max-width:520px){.cards,.skill-grid{grid-template-columns:1fr}.hero h1{font-size:52px}.page-heading h1{font-size:39px}.timeline li{grid-template-columns:78px 1fr;gap:15px}.brand-name small{font-size:9px}.brand-name{font-size:9px}.search-label{width:100%}.search-label input{min-width:0;width:100%}.paper{grid-template-columns:1fr}.paper-year{font-size:23px}.metrics-inner{gap:16px}.metric{gap:8px}.metric span{font-size:11px}.story-heading h1{font-size:31px;overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Scientific imagery refinement. Existing type, palette and page structure retained. */
+.hero-identity{display:flex;gap:15px;align-items:center;margin:0 0 20px}
+.hero-identity>img{width:70px;height:70px;object-fit:cover;object-position:center 25%;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.hero-identity .hero-role{margin:0;max-width:290px;font-size:16px}
+.molecular-hero{max-width:610px}
+.molecular-hero>a{display:block}
+.molecular-hero img{width:100%;border-radius:10px;box-shadow:0 12px 30px #102c3f08}
+.molecular-hero figcaption{line-height:1.8;padding-top:12px}
+.method-visual{display:block;width:100%;height:110px;object-fit:contain;margin:0 0 19px}
+.card .card-number{font-size:15px;margin-bottom:8px}
+.card-with-abstract{overflow:hidden}
+.card-abstract{display:flex;align-items:center;justify-content:center;margin:-29px -29px 25px;padding:12px 18px;min-height:152px;background:#fff;border-bottom:1px solid var(--line)}
+.card-abstract img{width:100%;height:132px;object-fit:contain;transition:transform .2s ease}
+.card-abstract:hover img{transform:scale(1.025)}
+.paper-illustrated{grid-template-columns:65px minmax(0,1fr) 255px;gap:24px}
+.paper-thumb{display:flex;flex-direction:column;justify-content:center;align-self:center;border:1px solid var(--line);border-radius:6px;background:#fff;overflow:hidden}
+.paper-thumb img{width:100%;height:145px;object-fit:contain;padding:10px}
+.paper-thumb span{font-size:10px;color:var(--teal);background:var(--soft);text-align:right;padding:7px 11px}
+.paper-thumb:hover{border-color:#77aca6}
+.profile-sidebar{align-self:start}
+.portrait-figure{margin:0 0 28px;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:var(--soft)}
+.profile-portrait{display:block;width:100%;height:auto}
+.portrait-figure figcaption{display:flex;gap:16px;align-items:center;padding:16px 18px;background:#fff}
+.personal-logo{display:block;width:76px;height:81px;object-fit:contain}
+.portrait-figure strong{display:block;font-size:14px}
+.portrait-figure figcaption span{display:block;font-size:11px;color:var(--muted)}
+.profile-sidebar .info-panel{padding:26px}
+.supplied-abstract{background:#fff}
+.research-figure.supplied-abstract img{padding:12px;border-radius:7px}
+.story-figure.supplied-abstract img{padding:12px}
+.story-figure.supplied-abstract figcaption{font-size:12px;line-height:1.8}
+.story-figure.supplied-abstract a:focus-visible{display:block}
+.evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:25px}
+.evidence-figure{border:1px solid var(--line);border-radius:7px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.evidence-figure>a{display:block}
+.evidence-figure img{display:block;width:100%;height:270px;object-fit:contain;padding:12px;background:#fff}
+.evidence-figure figcaption{padding:23px;border-top:1px solid var(--line)}
+.evidence-figure figcaption strong{display:block;font-size:17px;margin-bottom:11px}
+.evidence-figure figcaption span{display:block;color:var(--muted);font-size:13px;line-height:1.8;margin-bottom:15px}
+@media(max-width:1090px){.paper-illustrated{grid-template-columns:55px minmax(0,1fr) 210px;gap:20px}.card-abstract{margin:-24px -24px 24px;padding:12px}.hero-identity .hero-role{font-size:14px}}
+@media(max-width:980px){.hero-grid{grid-template-columns:1fr 1fr}.hero{padding:50px 0}.paper-illustrated{grid-template-columns:52px minmax(0,1fr)}.paper-thumb{grid-column:2;max-width:350px;width:100%;margin-top:5px}.paper-thumb img{height:155px}.hero-identity{gap:10px}.hero-identity>img{width:59px;height:59px}}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.molecular-hero{width:100%;max-width:540px;margin-inline:auto}.hero-identity .hero-role{font-size:15px;max-width:250px}.hero-identity>img{width:65px;height:65px}.method-visual{height:125px}.card-abstract{min-height:165px}.profile-sidebar{max-width:480px;width:100%;margin:auto}.evidence-grid{grid-template-columns:1fr}.evidence-figure img{height:auto;max-height:320px}.paper-thumb img{height:150px}}
+@media(max-width:520px){.paper-illustrated{grid-template-columns:1fr}.paper-thumb{grid-column:1;max-width:none}.paper-thumb img{height:auto;max-height:190px;min-height:125px}.molecular-hero figcaption{font-size:11px}.hero-identity .hero-role{font-size:14px}.card-abstract{margin:-24px -24px 22px}}
+@media(prefers-reduced-motion:reduce){.card-abstract img{transition:none}.card-abstract:hover img{transform:none}}
+
+/* Keep the portrait and biography balanced; retain the existing facts as a compact full-width row. */
+.profile-sidebar{display:contents}
+.profile-sidebar>.info-panel{grid-column:1/-1}
+.profile-sidebar>.info-panel .info-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.profile-sidebar>.info-panel .info-list li{overflow-wrap:anywhere}
+@media(max-width:760px){.profile-sidebar>.portrait-figure{max-width:480px;width:100%;margin:0 auto}.profile-sidebar>.info-panel .info-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}}
+@media(max-width:400px){.profile-sidebar>.info-panel .info-list{grid-template-columns:1fr}}
