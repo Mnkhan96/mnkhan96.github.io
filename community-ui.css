@@ -1,0 +1,47 @@
+/* Community Corner v2: compact by default, expands only on request.
+   This separate stylesheet avoids stale-cache styling of the previous forms. */
+.community-v2{background:#f5f9f8;border-top:1px solid #d8e4e7}
+.community-v2 .community-v2-heading{max-width:760px;margin:0 0 30px}
+.community-v2-heading h2{margin:0 0 14px}
+.community-v2-heading p{font-size:15px;line-height:1.8;color:#586d7a}
+.community-v2-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.community-v2-card{min-width:0;border:1px solid #d6e5e6;border-top:3px solid #126d69;background:#fff;padding:clamp(24px,3vw,36px);border-radius:5px;box-shadow:0 4px 14px rgba(16,44,63,.035)}
+.community-v2-index{font-size:10px;line-height:1.5;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:#167b76}
+.community-v2-card-icon{font:normal 29px/1 Georgia,serif;color:#b58e4e;margin:14px 0}
+.community-v2-card h3{font:normal 29px/1.2 "DM Serif Display",Georgia,serif;letter-spacing:-.3px;color:#102c3f;margin:0 0 13px}
+.community-v2-card>p{font-size:14px;line-height:1.8;color:#586d7a;max-width:390px;min-height:56px}
+.community-v2-disclosure{margin-top:23px}
+.community-v2-disclosure summary{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:100%;min-height:46px;padding:12px 17px;background:#126d69;border:1px solid #126d69;color:white!important;border-radius:4px;font-weight:700;font-size:13px;line-height:1.5;cursor:pointer;list-style:none;user-select:none}
+.community-v2-disclosure summary::-webkit-details-marker{display:none}
+.community-v2-disclosure summary::marker{content:""}
+.community-v2-disclosure summary:hover,.community-v2-disclosure[open]>summary{background:#102c3f;border-color:#102c3f}
+.community-v2-disclosure summary:focus-visible{outline:3px solid #b47b32;outline-offset:4px}
+.community-v2-arrow{font-size:20px;line-height:1;font-weight:400}
+.community-v2-disclosure[open] .community-v2-arrow{transform:rotate(90deg)}
+.community-v2-form-wrap{padding-top:22px}
+.community-v2-note{margin:24px 0 0;font-size:12px;line-height:1.75;color:#586d7a}
+.community-v2-note strong{color:#102c3f}
+.community-v2-note a,.journey-v2-followup a{color:#126d69;text-decoration:underline;text-underline-offset:3px}
+/* Form layout—intentionally scoped so the surrounding academic pages do not change. */
+.community-form-v2{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.community-form-v2 input[type="hidden"]{display:none!important}
+.community-form-v2 .community-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.community-form-v2 label:not(.community-checkbox){display:flex;flex-direction:column;gap:7px;min-width:0;font-size:12px;line-height:1.6;font-weight:650;color:#183247}
+.community-form-v2 label input:not([type="checkbox"]):not([type="hidden"]),.community-form-v2 label textarea,.community-form-v2 label select{display:block;box-sizing:border-box;width:100%;min-width:0;padding:12px 13px;border:1px solid #bdd0d3;border-radius:5px;background:white;color:#183247;font:400 13px/1.6 "DM Sans",Arial,sans-serif}
+.community-form-v2 textarea{resize:vertical;min-height:118px}
+.community-form-v2 label input:focus,.community-form-v2 label textarea:focus,.community-form-v2 label select:focus{outline:2px solid #126d69;outline-offset:2px}
+.community-form-v2 .form-optional{font-weight:400;color:#687d89}
+.community-form-v2 .community-checkbox{display:flex;align-items:flex-start;gap:10px;color:#586d7a;font-size:12px;line-height:1.65;font-weight:400}
+.community-form-v2 .community-checkbox input{flex:none;width:16px;height:16px;accent-color:#126d69;margin:3px 0 0}
+.community-form-v2 .community-submit{display:inline-flex;align-items:center;gap:8px;justify-self:start;justify-content:center;min-height:45px;border:0;background:#126d69;color:#fff!important;padding:12px 19px;border-radius:4px;font:700 13px/1.4 "DM Sans",Arial,sans-serif;cursor:pointer}
+.community-form-v2 .community-submit:hover{background:#102c3f}
+.community-form-v2 .community-fineprint{font-size:11px;line-height:1.75;color:#586d7a;margin:0}
+.journey-reader-v2{margin:53px 0 35px;border-top:3px solid #126d69;background:#f2f8f7;padding:clamp(22px,3vw,32px)}
+.journey-reader-v2 h2{font:normal clamp(27px,3vw,36px)/1.25 "DM Serif Display",Georgia,serif;margin:2px 0 15px;color:#102c3f}
+.journey-reader-v2>p{font-size:14px;line-height:1.75;color:#586d7a}
+.journey-reader-v2 .journey-v2-disclosure{max-width:340px}
+.journey-reader-v2 .community-v2-disclosure[open]{max-width:none}
+.journey-reader-v2 .community-v2-form-wrap{padding:22px 0}
+.journey-reader-v2 .journey-v2-followup{margin:19px 0 0;font-size:12px}
+@media(max-width:980px){.community-v2-grid{grid-template-columns:1fr}.community-v2-card>p{min-height:0}}
+@media(max-width:620px){.community-v2-card{padding:23px}.community-form-v2 .community-fields{grid-template-columns:1fr}.community-form-v2 .community-submit{width:100%}.journey-reader-v2 .journey-v2-disclosure{max-width:none}}
