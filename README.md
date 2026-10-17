@@ -13,8 +13,8 @@ Static multi-page chemistry research profile hosted with GitHub Pages. No build 
 - Contact: `contact.html`
 - Chemistry databases, software and useful resources: `resources.html`
 
-## Editing
-All pages are plain HTML. Shared appearance and interactions are in `styles.css` and `script.js`. Keep the shared header and footer synchronized when adding pages, and add the new URL to `sitemap.xml`. Internal relative paths on research-story pages use `../`.
+- Personal blog landing page: `blog.html` (currently no published posts)\n- Site-wide searchable directory: `search.html`, powered by `site-search.js`\n\n## Editing
+All pages are plain HTML. Shared appearance and interactions are in `styles.css` and `script.js`. Keep the shared header and footer synchronized when adding pages. Update the searchable-page entries in `site-search.js` when publishing new blog posts. The site search indexes curated page titles and descriptions; it does not crawl full page text, and add the new URL to `sitemap.xml`. Internal relative paths on research-story pages use `../`.
 
 Chemistry illustrations are original SVG files in `assets/`. The naphthyl-chalcone illustration is a representative structure. Other diagrams are explicitly conceptual; none should be interpreted as experimental spectra, charge-density maps or device performance.
 
