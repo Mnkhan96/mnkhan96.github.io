@@ -65,3 +65,24 @@
 .studio-resource-link>div{max-width:720px}.studio-resource-link h2{font-size:28px;margin-bottom:10px}.studio-resource-link p{margin:0;color:var(--muted);font-size:13px}
 @media(max-width:960px){.studio-shell{grid-template-columns:1fr}.studio-sketch-grid{grid-template-columns:1fr}.studio-sidebar{padding:19px}.molecule-picker{grid-template-columns:repeat(5,minmax(0,1fr))}}
 @media(max-width:650px){.studio-hero .wrap{padding-top:42px;padding-bottom:42px}.molecule-picker{grid-template-columns:repeat(2,minmax(0,1fr))}.studio-view-panel{padding:14px}.studio-sidebar{padding:18px}#model-stage{min-height:340px}.studio-sketch-placeholder iframe{min-height:520px}.studio-sketch-placeholder{min-height:250px}.studio-resource-link{padding:21px}}
+/* Published molecular families: source-backed 2D references pending 3D coordinate files */
+.published-families-section{background:#fbfdfd;border-top:1px solid var(--line)}
+.published-families-section .section-top>p{max-width:470px;color:var(--muted);font-size:14px;line-height:1.7}
+.published-families-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.published-family{overflow:hidden;background:#fff;border:1px solid #d8e4e7;display:flex;flex-direction:column}
+.published-family-art{height:220px;display:flex;align-items:center;justify-content:center;background:#f1f6f6;padding:14px}
+.published-family-art img{height:100%;width:100%;object-fit:contain}
+.published-family-placeholder{flex-direction:column;gap:6px;background:linear-gradient(125deg,#e3efec,#f7fbfa);color:#126d69;font-family:var(--serif)}
+.published-family-placeholder>span{font-size:48px;letter-spacing:-2px}.published-family-placeholder small{font:600 12px var(--sans);color:#586d7a}
+.published-family-body{padding:24px 24px 20px;flex:1;display:flex;flex-direction:column}
+.published-family-body .eyebrow{margin-bottom:6px}
+.published-family-body h3{font:normal 27px/1.2 var(--serif);margin-bottom:7px}
+.published-family-body>p{font-size:13px;color:#536b79;line-height:1.75}
+.published-family-body .published-family-series{font-weight:700;color:#183247;margin-bottom:8px}
+.published-family-body .published-family-state{border-left:3px solid #b0cfd0;background:#edf5f4;color:#31575b;font-size:11px;padding:8px 11px;margin:auto 0 14px}
+.published-family-links{display:flex;flex-wrap:wrap;gap:10px 20px;border-top:1px solid #e1eaea;padding-top:14px}
+.published-family-links a{font-size:12px;font-weight:700;color:var(--teal)}
+.published-coordinate-guidance{border:1px solid #d8e4e7;background:#fff;padding:20px 23px;margin-top:24px}
+.published-coordinate-guidance summary{cursor:pointer;font-weight:700;color:var(--teal);font-size:14px}
+.published-coordinate-guidance p{color:#586d7a;line-height:1.85;margin:14px 0 0;font-size:13px}
+@media(max-width:750px){.published-families-grid{grid-template-columns:1fr}.published-family-art{height:190px}}
