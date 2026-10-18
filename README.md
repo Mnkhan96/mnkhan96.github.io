@@ -45,3 +45,13 @@ The new `molecule-studio.html` page offers on-demand 3Dmol.js visualization and 
 
 ## Published molecular families awaiting original coordinates
 The Molecule Studio now showcases publication-linked 2D research references for naphthyl chalcones (14–18), 2-aminoimidazolones (10–18), quinoxaline carboxamides (LUMS2401–LUMS2409), and published organoselenium chemistry. THESE ARE NOT 3D MODELS. Their optimized Cartesian coordinates were not retrievable/verified from the public publisher resources in this session. Do not replace with unverified molecular identities or generated conformers masquerading as reported optimization outputs. The ACS Omega organoselenium SI specifically describes NMR/GC-MS spectra, not Cartesian coordinates. Publish more 3D models only after obtaining original SI/PDF/ZIP geometry tables or code-mapped, author-supplied molecular files.
+
+## Free Smart Research Navigator (October 2026)
+The site-wide floating Research Navigator is a **browser-only, non-generative** question-and-navigation assistant. No API keys, database, visitor accounts, message logging, chatbot backend, or third-party LLM is involved. It should never be described as Muhammad Naeem Khan speaking personally or as an AI model. It gives limited curated answers grounded in the public About, Research, Publications, Resources, Experience, Blog, Molecule Studio, and Contact pages; unknown questions fall back to links from the website's existing search index.
+
+- `script.js` bootstraps the widget on *all* pages, including pages under `publications/` and `blog/`, using the root directory derived from its own script URL.
+- `site-search.js` publishes the same static index as `window.MNK_SITE_INDEX` for use in both full-page search and the navigator.
+- `research-navigator.js` injects the UI, ready-made guide responses and source links, guided question buttons, and search-index fallback; no user messages are sent to a server or retained in storage.
+- `research-navigator.css` supplies responsive styling matching navy/teal brand colors.
+- Maintain the curated answers when material facts change, and update the search index when adding public content.
+- No unverified achievements, unpublished research, or implied real-time or direct personal messaging.

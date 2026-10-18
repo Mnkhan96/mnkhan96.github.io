@@ -23,3 +23,36 @@ document.querySelectorAll('a[href="#top"]').forEach(anchor=>{
 const y=document.querySelector('#copyright-year');if(y)y.textContent=new Date().getFullYear();
 if(location.pathname==='/'||location.pathname.endsWith('/index.html')){const legacy={about:'about.html',research:'research.html',publications:'publications.html',projects:'research.html#directions',academic:'experience.html',contact:'contact.html'};const target=legacy[location.hash.slice(1)];if(target)location.replace(target);}
 })();
+
+/* Free Smart Research Navigator: the shared site index powers page suggestions.
+   This lazy bootstrap works on root pages and nested publication/blog pages. */
+(()=>{
+  'use strict';
+  const owner=document.currentScript;
+  if(!owner||!owner.src)return;
+  const root=new URL('.',owner.src);
+  const boot=()=>{
+    if(document.querySelector('link[data-mnk-guide-style]'))return;
+    const style=document.createElement('link');
+    style.rel='stylesheet';
+    style.href=new URL('research-navigator.css?v=20261018',root).href;
+    style.dataset.mnkGuideStyle='true';
+    document.head.append(style);
+    const loadWidget=()=>{
+      if(document.querySelector('script[data-mnk-guide-widget]'))return;
+      const widget=document.createElement('script');
+      widget.src=new URL('research-navigator.js?v=20261018',root).href;
+      widget.dataset.mnkGuideWidget='true';
+      widget.defer=true;
+      document.head.append(widget);
+    };
+    if(Array.isArray(window.MNK_SITE_INDEX)){loadWidget();return;}
+    const index=document.createElement('script');
+    index.src=new URL('site-search.js',root).href;
+    index.onload=loadWidget;
+    index.onerror=loadWidget;
+    document.head.append(index);
+  };
+  if(document.readyState==='complete')boot();
+  else document.addEventListener('DOMContentLoaded',boot,{once:true});
+})();
