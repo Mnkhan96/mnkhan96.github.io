@@ -1,0 +1,67 @@
+/* Molecule Studio: self-contained additions to the existing academic style. */
+.studio-hero{background:linear-gradient(115deg,#f0f8f7,#fff);border-bottom:1px solid var(--line)}
+.studio-hero .wrap{padding-top:62px;padding-bottom:62px}
+.studio-hero .lead{max-width:810px}
+.studio-head-actions{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin-top:22px}
+.studio-head-actions .text-link{display:inline-block}
+.studio-method-note{background:#f5f9f8;border:1px solid #d5e5e4;border-left:3px solid var(--teal);padding:14px 17px;color:#4a6070;font-size:13px;line-height:1.8;margin:23px 0 0}
+.studio-section-intro{max-width:770px;margin-bottom:30px}
+.studio-section-intro p{color:var(--muted)}
+.studio-shell{display:grid;grid-template-columns:minmax(210px,.38fr) minmax(0,1fr);gap:18px;align-items:stretch}
+.studio-sidebar,.studio-view-panel{background:#fff;border:1px solid var(--line);border-radius:8px;min-width:0}
+.studio-sidebar{padding:24px}
+.studio-sidebar>h3{font:normal 26px var(--serif);margin:8px 0 6px}
+.studio-sidebar>p{font-size:12px;color:var(--muted);line-height:1.8}
+.molecule-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:21px}
+.molecule-choice{display:grid;gap:4px;text-align:left;padding:10px 11px;background:#f7faf9;border:1px solid #cfdfe1;border-radius:5px;color:var(--ink);cursor:pointer;min-width:0}
+.molecule-choice strong{font-size:13px}.molecule-choice small{font-size:10px;color:var(--muted);overflow-wrap:anywhere}
+.molecule-choice.is-active,.molecule-choice[aria-pressed='true']{background:#e5f2ef;border-color:var(--teal)}
+.molecule-choice:hover{border-color:var(--teal)}
+.studio-view-panel{padding:22px}
+.studio-view-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.studio-view-top h3{font:normal 28px var(--serif);margin:2px 0 4px}
+.studio-meta{color:var(--muted);font-size:12px}
+#model-stage{position:relative;min-height:425px;border-radius:6px;overflow:hidden;border:1px solid #e2ebea;margin:19px 0 17px;background:radial-gradient(ellipse at 50% 30%,#fff,#f2f8f7)}
+#molecule-viewer{position:absolute;inset:0}
+#molecule-viewer canvas{display:block}
+.studio-view-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:13px;padding:30px;text-align:center}
+.studio-view-placeholder svg{width:82px;height:82px;color:#2b8b84}
+.studio-view-placeholder p{max-width:370px;color:var(--muted);font-size:13px;margin:0}
+.studio-view-placeholder .button{border:0;cursor:pointer}
+#molecule-viewer.is-ready~.studio-view-placeholder{display:none}
+.studio-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.studio-controls[hidden]{display:none!important}
+.studio-controls label{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:650}
+.studio-controls select{padding:8px 11px;border:1px solid #bbd2d2;border-radius:4px;background:#fff;color:var(--ink)}
+.studio-controls input{accent-color:var(--teal)}
+.studio-controls button{border:1px solid #bed3d3;background:white;color:#205965;font-size:12px;border-radius:4px;padding:9px 12px;cursor:pointer;font-weight:650}
+.studio-controls button:hover{background:#edf6f4}
+.studio-status{margin:12px 0 0;font-size:12px;color:var(--muted);min-height:19px}
+.studio-mol-note{font-size:12px;color:var(--muted);line-height:1.8;padding-top:13px;border-top:1px solid var(--line);margin-top:21px}
+.studio-mol-note a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.studio-sketch{background:var(--soft)}
+.studio-sketch-grid{display:grid;grid-template-columns:.42fr .58fr;gap:32px;align-items:start}
+.studio-sketch-guide{padding-top:12px}
+.studio-sketch-guide p{font-size:14px;color:var(--muted);line-height:1.85}
+.studio-sketch-guide ol{padding-left:20px;color:#355364;font-size:13px;line-height:1.9}
+.studio-embed-box{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;min-width:0}
+.studio-embed-box .eyebrow{margin-bottom:10px}
+.studio-embed-box>h3{font:normal 24px var(--serif)}
+.studio-embed-box>p{font-size:13px;color:var(--muted)}
+.studio-sketch-placeholder{border:1px dashed #b6cece;border-radius:6px;min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:23px;text-align:center;background:#f9fcfb}
+.studio-sketch-placeholder button{border:0;cursor:pointer}
+.studio-sketch-placeholder p{font-size:13px;color:var(--muted);max-width:380px;margin:0}
+.studio-sketch-placeholder.has-editor{display:block;padding:0;border:0;min-height:0}
+.studio-sketch-placeholder iframe{width:100%;min-height:640px;border:0;border-radius:7px;display:block;background:#fff}
+.studio-provider{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:13px}
+.studio-provider a{color:var(--teal);font-weight:700}
+.studio-provider a[hidden]{display:none}
+.studio-warning{padding:14px 16px;background:#fff9ed;border-left:3px solid #c39c4c;margin-top:22px;font-size:12px;color:#665333;line-height:1.7}
+.studio-invite{border-top:1px solid var(--line);background:#f6faf9}
+.studio-invite-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;flex-wrap:wrap}
+.studio-invite-inner h2{margin-bottom:13px}
+.studio-invite-inner p{max-width:700px;color:var(--muted)}
+.studio-resource-link{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:22px;padding:28px;background:#eef6f5;border:1px solid #cfdfde;margin-bottom:44px}
+.studio-resource-link>div{max-width:720px}.studio-resource-link h2{font-size:28px;margin-bottom:10px}.studio-resource-link p{margin:0;color:var(--muted);font-size:13px}
+@media(max-width:960px){.studio-shell{grid-template-columns:1fr}.studio-sketch-grid{grid-template-columns:1fr}.studio-sidebar{padding:19px}.molecule-picker{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:650px){.studio-hero .wrap{padding-top:42px;padding-bottom:42px}.molecule-picker{grid-template-columns:repeat(2,minmax(0,1fr))}.studio-view-panel{padding:14px}.studio-sidebar{padding:18px}#model-stage{min-height:340px}.studio-sketch-placeholder iframe{min-height:520px}.studio-sketch-placeholder{min-height:250px}.studio-resource-link{padding:21px}}

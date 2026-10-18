@@ -55,5 +55,13 @@
   ],
   "unmapped": "image(20261016-115327).png is withheld until its publication is confirmed.",
   "portrait": "Author-provided IMG_6397.jpg; EXIF orientation corrected, resized and WebP compressed. No retouching or generated image content.",
-  "logo": "Author-provided Picture3.png, preserved as a personal badge on the About page. The existing MN. navigation branding is unchanged."
+  "logo": "Author-provided Picture3.png, preserved as a personal badge on the About page. The existing MN. navigation branding is unchanged.",
+  "published_molecular_gallery": {
+    "page": "molecule-studio.html",
+    "dataset": "assets/molecules/3d/published-pyrazoline-thiazoles.json",
+    "source": "Author-uploaded L01-L10 3D MOL2 files for published pyrazoline–thiazole hybrids, DOI 10.1016/j.jphotochem.2026.117426.",
+    "validation": "All ten molecules passed RDKit sanitization and SDF round-trip. L02 rebuilt using user's explicit bond order and original matching 3D coordinates.",
+    "limitations": "Calculation level and experimental geometry not independently verified. No unpublished compounds or Gaussian checkpoint/orbital files included.",
+    "external_editor": "MolDraw external editor loads on click, with privacy warning."
+  }
 }
