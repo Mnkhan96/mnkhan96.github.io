@@ -55,3 +55,6 @@ The site-wide floating Research Navigator is a **browser-only, non-generative** 
 - `research-navigator.css` supplies responsive styling matching navy/teal brand colors.
 - Maintain the curated answers when material facts change, and update the search index when adding public content.
 - No unverified achievements, unpublished research, or implied real-time or direct personal messaging.
+
+### Research Navigator answer-quality revision (October 18, 2026)
+Fixed first-match keyword routing that incorrectly answered comparative questions such as “What is my best research and best molecule and why?” with unrelated general links. Scientific ranking/compare requests now route before generic search; the guide supplies publication-grounded, within-study findings and refuses a universal ranking across studies without comparable measurements. The original paper story pages are the evidence for pyrazoline–thiazoles, naphthyl chalcones, 2-aminoimidazolones and quinoxaline carboxamides. No paper reports a comparable fabricated solar-cell efficiency. Unknown content still falls back to website search. Cache-bust navigator asset to version `20261018b`. Regression checks cover research rankings, 3D viewer, resources, contact, publication-specific results and short follow-up metrics. This remains a deterministic browser-only guide, not an LLM.

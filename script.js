@@ -41,7 +41,7 @@ if(location.pathname==='/'||location.pathname.endsWith('/index.html')){const leg
     const loadWidget=()=>{
       if(document.querySelector('script[data-mnk-guide-widget]'))return;
       const widget=document.createElement('script');
-      widget.src=new URL('research-navigator.js?v=20261018',root).href;
+      widget.src=new URL('research-navigator.js?v=20261018b',root).href;
       widget.dataset.mnkGuideWidget='true';
       widget.defer=true;
       document.head.append(widget);
